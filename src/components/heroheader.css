@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    width: 100%;
+}
+
+.hero {
+    width: 100%;
+    position: relative;
+}
+
+.hero__headline {
+    color: white;
+    position: absolute;
+    top: 25rem;
+    width: 45%;
+    left: 10rem;
+    font-size: 4rem;
+}
