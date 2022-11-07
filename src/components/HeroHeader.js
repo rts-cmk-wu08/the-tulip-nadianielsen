@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
 import "./heroheader.css"
+import logo from "../thetuliplogo.svg"
 
 const HeroHeader = () => {
 
@@ -16,16 +17,26 @@ const HeroHeader = () => {
     }, []);
     
     return (
-        <header className="header">
-            {loading && <p>Loading...</p>}
+        <>
+        {loading && <p>Loading...</p>}
             {error && <p>{error}</p>}
             {!error && hero && (
-                <>
-                <img className="hero" src={hero.image} alt="" />
+                <header className="header">
+                    <nav className="nav__bar imagediv">
+                        <ul>
+                            <li className="nav__li"><a className="nav__a" href="index.html">Home</a></li>
+                            <li className="nav__li"><a className="nav__a" href="index.html">Rooms & Suites</a></li>
+                            <li className="nav__li"><a className="nav__a" href="index.html">Services</a></li>
+                            <li className="nav__li"><a className="nav__a" href="index.html">About US</a></li>
+                            <li className="nav__li"><a className="nav__a" href="index.html">Booking</a></li>
+                        </ul>
+                    </nav>
+                    <img className="hero" src={hero.image} alt="" />
                 <h1 className="hero__headline">{hero.headline}</h1>
-                </>
+                <img className="tulip__logo" src={logo} alt="" />
+                </header>
             )}
-        </header>
+        </>
     );
 }
 

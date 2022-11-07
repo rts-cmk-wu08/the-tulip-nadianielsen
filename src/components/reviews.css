@@ -1,0 +1,28 @@
+.reviews__heading, .reviews__text {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews__heading {
+    color: #0083CA;
+}
+
+.reviews__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 30rem);
+    grid-template-rows: repeat(2, 20rem);
+    
+}
+
+.reviews__boxes {
+    width: 21.87rem;
+    height: 9.87rem;
+    background-color: white;
+    border-radius: 1rem;
+    box-shadow: 0 0 10px black;
+    text-align: center;
+}
+
+.reviews__text {
+    padding-top: 1.5rem;
+}

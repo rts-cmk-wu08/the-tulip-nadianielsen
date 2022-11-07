@@ -1,0 +1,38 @@
+.services {
+    width: 70rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+}
+
+.ourservices, .heading__services {
+    color: #0083CA;
+}
+
+.ourservices {
+    padding-top: 2rem;
+    font-size: 3rem;
+}
+
+.ourservices, .services__text {
+    display: flex;
+    justify-content: center;
+}
+
+.text__section, .services__img {
+    width: 33.75rem;
+}
+
+.heading__services {
+    font-size: 2.37rem;
+}
+
+.services__img {
+    height: 21.875rem;
+}
+
+
+.services__text {
+
+}

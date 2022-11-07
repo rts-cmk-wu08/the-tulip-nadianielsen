@@ -1,0 +1,24 @@
+.gallery {
+    width: 70rem;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: 
+    "a a "
+    "b c "
+    "b c ";
+    row-gap: 2rem;
+    margin-top: 8rem;
+}
+
+.gallery__heading {
+    color: #0083CA;
+}
+
+.gallery__heading, .gallery__text {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery__img {
+    max-width: 100%;
+}

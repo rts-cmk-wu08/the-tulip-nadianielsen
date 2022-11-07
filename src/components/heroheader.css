@@ -1,23 +1,50 @@
-body {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-.header {
+.header, .hero {
     width: 100%;
 }
 
-.hero {
-    width: 100%;
-    position: relative;
+.nav__bar {
+   position: absolute;
+   display: grid;
+   grid-template-columns: repeat(6, 1fr);
+   grid-template-rows: 1fr;
+   width: 70rem;
+   margin-left: 12rem;
+}
+
+.nav__li {
+    list-style-type: none;
+    grid-row: 1/1;
+}
+
+.tulip__logo, .hero__headline {
+    left: 10rem;
+}
+
+.nav__a {
+    text-decoration: none;
+}
+
+.nav__a, .hero__headline {
+    color: white;
+}
+
+.home {
+    grid-column: 1/1;
+}
+
+.rooms__suites {
+    grid-column: 2/2;
 }
 
 .hero__headline {
     color: white;
     position: absolute;
-    top: 25rem;
+    top: 23rem;
     width: 45%;
-    left: 10rem;
     font-size: 4rem;
+}
+
+.tulip__logo {
+   position: relative;
+   bottom: 36rem;
 }

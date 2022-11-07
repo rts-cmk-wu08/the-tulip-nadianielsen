@@ -1,0 +1,66 @@
+.color__white {
+    color: white;
+}
+
+.guests, .size , .family__room, .description, .price {
+    position: relative;
+}
+
+.room__types {
+    display: grid;
+    grid-template-columns: repeat(3, 22rem);
+    width: 70rem;
+    margin: 0 auto;
+}
+
+.rooms__boxes, .price {
+    background: rgba(0, 131, 202,1);
+}
+
+.rooms__boxes {
+    background: linear-gradient(180deg, rgba(0, 131, 202, 0.20) 0%, rgba(0,131,202, 0.20) 100%);
+    width: 20rem;
+    height: 31.0625rem;
+    border-radius: 5px;
+}
+
+.rooms__img {
+    width: 18.75rem;
+    height: 18.75rem;
+    margin-left: 0.6rem;
+    margin-top: 0.6rem;
+}
+
+.guests {
+    bottom: 4rem;
+    left: 2rem;
+}
+
+.size {
+    bottom: 6.35rem;
+}
+
+.family__room {
+    color: #0083CA;
+    bottom: 5.5rem;
+}
+
+.family__room, .description {
+    left: 0.6rem;
+}
+
+.description {
+    bottom: 5.7rem;
+}
+
+.size, .price {
+    left: 15rem;
+}
+
+.price {
+    bottom: 11.8rem;
+    width: 4.3rem;
+    height: 1.65rem;
+    text-align: center;
+    border-radius: 0.4rem;
+}
