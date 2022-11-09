@@ -2,9 +2,10 @@ import Gallery from "./components/Gallery";
 import HeroHeader from "./components/HeroHeader";
 import OurRooms from "./components/OurRooms";
 import OurServices from "./components/OurServices";
-import Reviews from "./components/Reviews";
 import RoomTypes from "./components/RoomTypes";
 import Spots from "./components/Spots";
+import Reviews from "./components/Reviews";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Gallery />
       <Reviews />
     </main>
+    <Footer />
     </>
   )
 }

@@ -1,0 +1,104 @@
+.footer {
+    background-color: #0B0D17;
+    width: 100%;
+    margin-top: 8rem;
+}
+
+.footer__grid {
+    display: grid;
+    grid-template-columns: repeat(4, 20rem);
+    grid-template-rows: repeat(2, 14.68rem);
+    width: 70rem;
+    margin-left: 7rem;
+}
+
+.footer, .footer__grid {
+    height: 29.375rem;
+}
+
+.tulip {
+    width: 10.5rem;
+    margin-top: 6rem;
+}
+
+.footer__text {
+    width: 70%;
+    margin-top: 10rem;
+}
+
+.footer__text, .tulip, .input__footer {
+    grid-column: 1/1;
+    margin-left: 2rem;
+}
+
+.footer__text, .tulip, .services__footer, .reachus__footer, .restaurant , .coffee__shop, .car__wash, .mail__hotel{
+    grid-row: 1/1;
+}
+
+.input__footer {
+    width: 14.37rem;
+    height: 2.5rem;
+    background-color: #393b42;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.footer__text, .input__footer, .services__footer, .reachus__footer, .restaurant, .coffee__shop, .car__wash, .cycle__rent, .car__rent, .mail__hotel, .phone__number, .address__hotel {
+    color: white;
+}
+
+.services__footer, .restaurant, .coffee__shop, .car__wash, .cycle__rent, .car__rent {
+    grid-column: 3/3;
+}
+
+.reachus__footer, .mail__hotel, .phone__number, .address__hotel {
+    grid-column: 4/4;
+}
+
+.services__footer, .reachus__footer {
+    margin-top: 7rem;
+}
+.restaurant, .coffee__shop, .car__wash, .mail__hotel, .phone__number {
+    margin-top: auto;
+}
+
+.restaurant, .coffee__shop, .car__wash, .cycle__rent, .car__rent, .mail__hotel {
+    text-decoration: none;
+}
+
+.restaurant {
+    margin-bottom: 4rem;
+}
+
+.coffee__shop {
+    margin-bottom: 2rem;
+}
+
+.input__footer, .cycle__rent, .car__rent, .phone__number, .address__hotel {
+    grid-row: 2/2;
+}
+
+.cycle__rent, .car__rent, .address__hotel, .phone__number {
+    margin-bottom: auto;
+}
+
+.cycle__rent {
+    margin-top: 0.5rem;
+}
+
+.car__rent {
+    margin-top: 2.5rem;
+}
+
+.mail__hotel {
+    margin-bottom: 2.5rem;
+}
+
+.phone__number {
+    margin-bottom: 15rem;
+}
+
+.address__hotel {
+    width: 60%;
+    margin-top: 4rem;
+}

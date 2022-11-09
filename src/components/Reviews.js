@@ -20,7 +20,7 @@ const Reviews = () => {
             { loading && <p>Loading...</p>}
             { error && <p>{error}</p>}
             {!error && reviews &&
-                <section>
+                <section className="reviews">
                     <h2 className="reviews__heading">{reviews.headline}</h2>
                     <p className="reviews__text">{reviews.text}</p>
                     <div className="reviews__grid">
@@ -30,9 +30,11 @@ const Reviews = () => {
                             <p className="reviews__text">{review.text}</p>
                             <p>{review.stars} stars</p>
                             </div>
-                        <img key={review.id} src={review.imageUrl} alt="" />
-                        <p>{review.name}</p>
-                        <p>{review.handle}</p>
+                            <div className="reviewers">
+                                <img className="img__reviews" key={review.id} src={review.imageUrl} alt="" />
+                                <p className="reviews__names">{review.name}</p>
+                                <p className="reviews__handle">{review.handle}</p>
+                            </div>
                         </div>
                     ))}
                     </div>

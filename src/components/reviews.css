@@ -1,3 +1,7 @@
+.reviews {
+    margin-top: 8rem;
+}
+
 .reviews__heading, .reviews__text {
     display: flex;
     justify-content: center;
@@ -9,9 +13,9 @@
 
 .reviews__grid {
     display: grid;
-    grid-template-columns: repeat(3, 30rem);
-    grid-template-rows: repeat(2, 20rem);
-    
+    grid-template-columns: repeat(3, 29.5rem);
+    grid-template-rows: repeat(1, 20rem);
+    margin-left: 5rem;
 }
 
 .reviews__boxes {
@@ -25,4 +29,23 @@
 
 .reviews__text {
     padding-top: 1.5rem;
+}
+
+.img__reviews {
+    width: 3.5rem;
+    height: 3.5rem;
+    margin-left: 2rem;
+    margin-top: 2rem;
+}
+
+.reviewers {
+    margin-left: 7rem;
+}
+
+.reviews__names {
+    padding-left: 0.5rem;
+}
+
+.reviews__handle {
+    padding-right: 1rem;
 }
