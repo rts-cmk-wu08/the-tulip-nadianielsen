@@ -22,15 +22,13 @@ const HeroHeader = () => {
             {error && <p>{error}</p>}
             {!error && hero && (
                 <header className="header">
-                    {/* <nav className="nav__bar imagediv">
-                        <ul>
-                            <li className="nav__li"><a className="nav__a" href="index.html">Home</a></li>
-                            <li className="nav__li"><a className="nav__a" href="index.html">Rooms & Suites</a></li>
-                            <li className="nav__li"><a className="nav__a" href="index.html">Services</a></li>
-                            <li className="nav__li"><a className="nav__a" href="index.html">About US</a></li>
-                            <li className="nav__li"><a className="nav__a" href="index.html">Booking</a></li>
-                        </ul>
-                    </nav> */}
+                    <nav className="nav__bar imagediv">
+                            <a className="nav__a home" href="index.html">Home</a>
+                            <a className="nav__a" href="index.html">Rooms & Suites</a>
+                            <a className="nav__a" href="index.html">Services</a>
+                            <a className="nav__a" href="index.html">About US</a>
+                            <a className="nav__a" href="index.html">Booking</a> 
+                    </nav>
                     <img className="hero" src={hero.image} alt="" />
                 <h1 className="hero__headline">{hero.headline}</h1>
                 <img className="tulip__logo" src={logo} alt="" />
